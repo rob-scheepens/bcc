@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 9), cmake,
     libclang-9-dev | libclang-8-dev | libclang-6.0-dev | libclang-3.8-dev [!arm64] | libclang-3.7-dev [!arm64],
     clang-format-9 | clang-format-8 | clang-format-6.0 | clang-format-3.8 [!arm64] | clang-format-3.7 [!arm64] | clang-format,
     libelf-dev, bison, flex, libfl-dev, libedit-dev, zlib1g-dev, git,
-    python (>= 2.7), python-netaddr, python-pyroute2 | python3-pyroute2, luajit,
+    python (>= 2.7), python3-netaddr, python-pyroute2 | python3-pyroute2, luajit,
     libluajit-5.1-dev, arping, inetutils-ping | iputils-ping, iperf, netperf,
     ethtool, devscripts, python3, dh-python
 # add 'libdebuginfod-dev' to Build-Depends for libdebuginfod support
